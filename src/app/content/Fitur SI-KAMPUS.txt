@@ -1,0 +1,61 @@
+Nah ini bagus cuy, lu harus bikin fitur sesuai peran biar lebih efektif. Gue coba breakdown per role:  
+
+
+
+### **3. Akademik (Bagian Administrasi Kampus)**  
+- **Manajemen KRS & SKS** – Atur kebijakan SKS & validasi mata kuliah.
+- **Tambah Mata Kuliah KRS**  
+- **Jadwal Kuliah & Ujian** – Buat & update jadwal.  
+- **Pengelolaan Data Mahasiswa & Dosen** – Tambah/edit data akademik.  
+- **Monitoring Kehadiran & Nilai** – Bisa cek rekap absensi & performa mahasiswa.  
+- **Pengelolaan Surat Akademik** – Keterangan aktif, cuti, pindah, dll.
+
+
+
+### **1. Mahasiswa**  
+- **KRS Online** – Pilih & edit mata kuliah.  
+- **Jadwal Kuliah & Ujian** – Cek jadwal real-time.  
+- **Presensi Online** – Absen lewat QR Code atau GPS.  
+- **Cek Nilai & Transkrip** – Lihat nilai tiap semester.  
+- **E-Library & Modul Digital** – Akses bahan ajar.  
+- **Forum Diskusi & Chat** – Tanya-jawab sama dosen & mahasiswa lain.  
+- **Sistem Keuangan** – Cek UKT & histori pembayaran.  
+
+### **2. Dosen**  
+- **Manajemen Kelas & Jadwal** – Cek & atur jadwal per mata kuliah.  
+- **Presensi Mahasiswa** – Approve atau cek absensi mahasiswa.  
+- **Input Nilai & Evaluasi** – Masukkan nilai mahasiswa & feedback.  
+- **Upload Materi Kuliah** – Share modul atau tugas.  
+- **Forum Diskusi** – Bisa komunikasi langsung dengan mahasiswa.  
+- **Pengumuman Kelas** – Info mendadak bisa langsung ke mahasiswa.    
+
+### **4. Teknisi (Bagian IT Kampus)**  
+- **Manajemen Sistem** – Maintain server, update fitur, backup data.  
+- **Monitoring Koneksi & Keamanan** – Pastikan sistem tetap stabil.  
+- **Support & Troubleshooting** – Bantu mahasiswa/dosen kalau ada kendala.  
+- **Manajemen Akun Pengguna** – Buat, reset password, atau suspend akun.  
+
+### **5. Keuangan**  
+- **Manajemen Pembayaran UKT & Biaya Lain** – Input & monitoring pembayaran mahasiswa.  
+- **Histori Pembayaran** – Bisa dicek mahasiswa/dosen yang butuh.  
+- **Notifikasi Tagihan** – Reminder buat mahasiswa.  
+- **Laporan Keuangan Kampus** – Buat analisis keuangan untuk kampus.  
+
+
+
+Informasi Akun Staff: Akademik, Keuangan dan Admin Operator
+- NIK
+- Nama Lengkap
+- Alamat
+- Agama
+- Status Perkawinan
+- Kewarganegaraan
+
+- Email
+- Nomor HP
+- Username
+- Password
+- Role
+
+
+
