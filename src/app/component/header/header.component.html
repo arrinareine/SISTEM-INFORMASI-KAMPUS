@@ -1,0 +1,23 @@
+<div class="page-header d-print-none">
+    <div class="container-xl">
+        <div class="row g-2 align-items-center">
+            <div class="col">
+                <!-- Page pre-title -->
+                <div class="page-pretitle">
+                    Overview
+                </div>
+                <h2 class="page-title">
+                    <div>
+                        {{
+                            getTitle('/dashboard/home') ? 'Dashboard' :
+                            getTitle('/dashboard/data-mahasiswa') ? 'Data Mahasiswa' :
+                            getTitle('/dashboard/data-dosen') ? 'Data Dosen' :
+                            getTitle('/dashboard/data-fakultas') ? 'Data Fakultas' :
+                            getTitle('/dashboard/data-prodi') ? 'Data Program Studi' : ''
+                        }}
+                    </div>
+                </h2>
+            </div>
+        </div>
+    </div>
+</div>

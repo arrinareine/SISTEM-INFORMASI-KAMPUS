@@ -1,0 +1,95 @@
+<div class=" d-flex flex-column">
+    <div class="page page-center">
+        <div class="container container-tight py-4">
+            <div class="text-center mb-4">
+                <a href="." class="navbar-brand navbar-brand-autodark">
+                    <img src="assets/img/logo.png" width="100" height="100">
+                </a>
+            </div>
+            <div class="card card-md" style="border-radius: 18px;">
+                <div class="card-body">
+                    <h2 class="h2 text-center mb-4">SISTEM INFORMASI KAMPUS</h2>
+                    <form action="./" method="get" autocomplete="off" novalidate>
+                        <div class="mb-3">
+                            <label class="form-label">NIM</label>
+                            <input type="email" class="form-control" placeholder="E81020001" autocomplete="off">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="mahasiswa@gmail.com"
+                                autocomplete="off">
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">
+                                Password
+                                <span class="form-label-description">
+                                    <a href="./forgot-password.html">Lupa Password</a>
+                                </span>
+                            </label>
+                            <div class="input-group input-group-flat">
+                                <input type="password" class="form-control" placeholder="Your password"
+                                    autocomplete="off">
+                                <span class="input-group-text">
+                                    <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                            viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                                            <path
+                                                d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                                        </svg>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-footer">
+                        <a href="#" class="btn btn-primary w-100 rounded-4 mb-2" data-bs-toggle="modal" data-bs-target="#modal-small">
+                            Register
+                        </a>
+                    </div>
+                    <hr>
+                    <p class="text-center">Untuk NIM silahkan hubungi Akademik pada Jam Kerja</p>
+                    <p class="text-center">Senin - Kamis : 08.00 - 16.00</p>
+                    <p class="text-center">Jumat - Sabtu : 08.00 - 12.00</p>
+                    <p class="text-center">Untuk Pertanyaan lebih lanjut silahkan hubungi nomor Akademik : 081234567890</p>
+                    <hr>
+                    <div class="text-center text-secondary mt-3">
+                        Sudah punya akun? <a href="javascript:void(0)" routerLink="/login" tabindex="-1">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-blur fade" id="modal-small" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="modal-title">Silahkan periksa kembali NIM anda</div>
+                <div>
+                    NIM akan didaftarkan sebagai Mahasiswa yang akan mengakses Sistem Informasi Kampus, Ketidaktelitian pada penginputan NIM akan menyebabkan 
+                    NIM tertukar oleh Mahasiswa lain Pastikan NIM yang anda inputkan benar.
+                </div>
+                <div class="mt-3">
+                    Berikut adalah data NIM yang anda inputkan :
+                </div>
+                <div>
+                    <ul class="list-unstyled mb-2">
+                        <li>NIM            : </li>
+                        <li>Nama Lengkap   : </li>
+                        <li>Jurusan        : </li>
+                        <li>Tahun Angkatan : </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-link link-secondary me-auto"
+                    data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Daftar dan Login</button>
+            </div>
+        </div>
+    </div>
+</div>
