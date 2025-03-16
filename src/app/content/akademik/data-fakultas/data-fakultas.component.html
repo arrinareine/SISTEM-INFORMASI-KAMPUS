@@ -1,0 +1,225 @@
+<div class="col-12 mb-3">
+    <div class="card card-sm">
+        <div class="card-body d-flex justify-content-end">
+            <a href="#" class="btn btn-warning me-2" data-bs-toggle="modal" data-bs-target="#modal-report">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icon-tabler-plus">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M12 5l0 14" />
+                    <path d="M5 12l14 0" />
+                </svg>
+                Fakultas Baru
+            </a>
+            <a href="https://dashboard-lldikti3.kemdikbud.go.id/" target="_blank"
+                class="btn btn-success">
+                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="icon icon-tabler icon-tabler-search">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                </svg>
+                Data DIKTI
+            </a>
+        </div>
+    </div>
+</div>
+<div class="col-12">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Data Fakultas</h3>
+        </div>
+        <div class="table-responsive">
+            <table class="table card-table table-vcenter text-nowrap datatable">
+                <thead>
+                    <tr>
+                        <th class="w-1"><input class="form-check-input m-0 align-middle" type="checkbox"
+                                aria-label="Select all invoices"></th>
+                        <th class="w-1">No DIKTI
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-sm icon-thick" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M6 15l6 -6l6 6" />
+                            </svg>
+                        </th>
+                        <th>Nama Fakultas</th>
+                        <th>Kode Universitas</th>
+                        <th>Kode Fakultas</th>
+                        <th>Tanggal Pendirian</th>
+                        <th>Kelompok</th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input class="form-check-input m-0 align-middle" type="checkbox"
+                                aria-label="Select invoice"></td>
+                        <td><span class="text-secondary">001401</span></td>
+                        <td><a href="invoice.html" class="text-reset" tabindex="-1">Fakultas Hukum</a></td>
+                        <td>
+                            <span class="flag flag-xs flag-country-id me-2"></span>
+                            000165
+                        </td>
+                        <td>
+                            7732490
+                        </td>
+                        <td>
+                            15 Dec 2017
+                        </td>
+                        <td>
+                            <span class="badge bg-success me-1"></span> SOSHUM
+                        </td>
+                        <td>
+                            <div class="btn-list flex-nowrap">
+                                <a href="#" class="btn btn btn-primary">
+                                    View
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer d-flex align-items-center">
+            <p class="m-0 text-secondary">Showing <span>1</span> to <span>8</span> of <span>16</span> entries</p>
+            <ul class="pagination m-0 ms-auto">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M15 6l-6 6l6 6" />
+                        </svg>
+                        prev
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        next
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M9 6l6 6l-6 6" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-blur fade" id="modal-report" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Data Fakultas Baru</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="mb-3">
+                    <label class="form-label">Nama Fakultas</label>
+                    <input type="text" class="form-control" name="example-text-input" placeholder=" ">
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label class="form-label">Kode DIKTI</label>
+                            <input type="text" class="form-control" name="example-text-input" placeholder=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label class="form-label">Kode Universitas</label>
+                            <input type="text" class="form-control" name="example-text-input" placeholder=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label class="form-label">Kode Fakultas</label>
+                            <input type="text" class="form-control" name="example-text-input" placeholder=" ">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label class="form-label">Tanggal Pendirian</label>
+                            <div class="input-icon">
+                                <span class="input-icon-addon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+                                        <path d="M16 3v4" />
+                                        <path d="M8 3v4" />
+                                        <path d="M4 11h16" />
+                                        <path d="M11 15h1" />
+                                        <path d="M12 15v3" />
+                                    </svg>
+                                </span>
+                                <input class="form-control" placeholder=" " id="datepicker-icon-prepend"
+                                    value="2020-06-20" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="mb-3">
+                            <label class="form-label">Kelompok</label>
+                            <select type="text" class="form-select" id="select-users" value="">
+                                <option value="1">SAINTEK</option>
+                                <option value="2">SOSHUM</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">
+                <strong class="text-danger">
+                    PERINGATAN:
+                </strong>
+                <i>Penambahan data Fakultas harus memiliki Izin dari Rektor dan DIKTI.
+                    Penambahan data secara <i class="text-danger">SEMBARANG</i> akan dianggap sebagai <i
+                        class="text-danger">pelanggaran hukum</i> dan akan dikenakan sanksi sesuai peraturan
+                    perundang-undangan yang berlaku.</i>
+                <br>
+                <br>
+                <i>
+                    <strong>
+                        Pengisian data harus sesuai dengan data yang ada di <a
+                            href="https://www.dikti.go.id/data-universitas/data-universitas-indonesia"
+                            target="_blank">Website DIKTI</a> dan penuh dengan data yang valid serta bertanggung jawab
+                        atas data yang diinput.
+                    </strong>
+                </i>
+            </p>
+
+            <div class="modal-footer">
+                <a href="#" class="btn btn-link link-secondary" data-bs-dismiss="modal">
+                    Cancel
+                </a>
+                <a href="#" class="btn btn-primary ms-auto" data-bs-dismiss="modal">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24"
+                        stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 5l0 14" />
+                        <path d="M5 12l14 0" />
+                    </svg>
+                    Create new report
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
